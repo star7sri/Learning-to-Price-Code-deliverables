@@ -47,9 +47,9 @@ Learning-to-Price-Code-deliverables/
 │   └── revenue_plots/
 │
 └── README.md
+```
 
-
-🧠 Key Concepts Implemented:
+## 🧠 Key Concepts Implemented:
 
 - Attribute-level price decomposition
 - Interpretable demand modeling
@@ -58,7 +58,7 @@ Learning-to-Price-Code-deliverables/
 - Regret minimization
 - Cross-price and substitution effects
 
-⚙️ Algorithms Covered:
+## ⚙️ Algorithms Covered:
 
 The repository includes implementations and comparisons of:
 - Proposed Attribute-level Dynamic Pricing Algorithm
@@ -70,7 +70,7 @@ The repository includes implementations and comparisons of:
 - Drifting demand
 - Model misspecification
 
-⚙️ How to Run
+## ⚙️ How to Run
 1. Clone the repository
 git clone https://github.com/star7sri/Learning-to-Price-Code-deliverables.git
 cd Learning-to-Price-Code-deliverables
@@ -81,7 +81,7 @@ pip install numpy pandas matplotlib scipy jupyter
 3. Launch Jupyter Notebook
 jupyter notebook
 
-📄 Citation
+## 📄 Citation
 If you use this code in your research, please cite:
 @article{learning_to_price,
   title={Learning to Price: Interpretable Attribute-level Demand Models for Dynamic Markets},
@@ -89,7 +89,7 @@ If you use this code in your research, please cite:
   year={2026}
 }
 
-🤝 Contact
+## 🤝 Contact
 
 For questions, feedback, or collaboration:
 Author: Srividhya Sethuraman
