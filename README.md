@@ -2,7 +2,7 @@
 
 This repository contains the complete **code deliverables and experimental notebooks** corresponding to the paper:
 
-> **Learning to Price: Interpretable Attribute-level Demand Models for Dynamic Markets**
+> **Learning to Price: Interpretable Attribute-level Demand Models for Dynamic Markets - accepted as a full paper in AAMAS 2026.**
 
 The goal of this repository is to provide **reproducible experiments, simulation pipelines, and algorithmic implementations** used in the paper, with a focus on **interpretable, attribute-level dynamic pricing under uncertainty**.
 
@@ -25,31 +25,12 @@ All experiments are implemented as **Jupyter notebooks** for clarity and ease of
 ---
 
 ## 📂 Repository Structure
+1. Regret_comp_ADEPT_EE_GDG_v1 - contains the regret comparison of the ADEPT algorithm with the baselines
+2. Slopefit_cumregret - illustrates the empirical slope - regret rate calculation
+3. HnM_price_decomp_analysis - contains the AFD validation on HnM data
+4. CJ_pricedecompose - contains the AFD validation on Complete Journey data
 
-```text
-Learning-to-Price-Code-deliverables/
-│
-├── notebooks/
-│   ├── data_generation.ipynb
-│   ├── demand_model.ipynb
-│   ├── pricing_algorithms.ipynb
-│   ├── experiments_stationary.ipynb
-│   ├── experiments_non_stationary.ipynb
-│   └── evaluation_and_plots.ipynb
-│
-├── utils/
-│   ├── demand_functions.py
-│   ├── pricing_helpers.py
-│   └── plotting_utils.py
-│
-├── results/
-│   ├── regret_curves/
-│   └── revenue_plots/
-│
-└── README.md
-```
-
-## 🧠 Key Concepts Implemented:
+## Key Concepts Implemented:
 
 - Attribute-level price decomposition
 - Interpretable demand modeling
@@ -58,7 +39,7 @@ Learning-to-Price-Code-deliverables/
 - Regret minimization
 - Cross-price and substitution effects
 
-## ⚙️ Algorithms Covered:
+## Algorithms Covered:
 
 The repository includes implementations and comparisons of:
 - Proposed Attribute-level Dynamic Pricing Algorithm
