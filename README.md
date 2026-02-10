@@ -83,11 +83,13 @@ jupyter notebook
 
 ## 📄 Citation
 If you use this code in your research, please cite:
+```text
 @article{learning_to_price,
   title={Learning to Price: Interpretable Attribute-level Demand Models for Dynamic Markets},
   author={Sethuraman, Srividhya, Lakshminarayanan, Chandrashekar},
   year={2026}
 }
+```
 
 ## 🤝 Contact
 
